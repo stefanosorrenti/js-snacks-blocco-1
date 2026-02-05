@@ -24,9 +24,15 @@ se è dispari inseriscilo nell’array.*/
 
  for (i = 0; i < 6; i++) {
     const usersNumbers = parseInt(prompt('Scrivi il tuo numero.'))
+
+    if (usersNumbers % 2 === 1) {
+        oddNumbers.push(usersNumbers)
+        
+    
  }
 
-
+console.log(oddNumbers);
+}
 
 
 
