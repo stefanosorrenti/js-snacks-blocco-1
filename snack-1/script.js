@@ -29,15 +29,16 @@ console.log(`Questo è il primo numero ${firstNumber}`);
 //chiedo il secondo numero
 const secondNumber = prompt('Digita un altro numero')
 //(structure)
-console.log(`Questo è il primo numero ${secondNumber}`);
+console.log(`Questo è il secondo numero ${secondNumber}`);
 
 if (firstNumber > secondNumber) {
-    console.log(firstNumber);
+    console.log(`Questo è il numero più grande ${firstNumber}`);
     
 } else if(firstNumber < secondNumber) {
-    console.log(secondNumber);
+    console.log(`Questo è il numero più grande ${secondNumber}`);
     
 } else {
     console.log('Sono uguali');
     
 }
+
