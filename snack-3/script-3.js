@@ -15,15 +15,15 @@ Il programma stampa la somma di tutti i numeri inseriti.*/
 
 
 
-let userNumber;
+const somma = 0;
 //chiedo il numero all'utente (prompt)
 for( let i = 0; i < 10; i++) {
 let userNumber = parseInt(prompt('Scrivi il numero'))
+somma = somma + userNumber;
 
-console.log(userNumber);
-
-console.log(userNumber + i);
 
 }
+
+console.log(somma);
 
 
